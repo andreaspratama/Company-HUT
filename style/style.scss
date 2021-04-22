@@ -1,11 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
-    // background-color: blue;
 }
 
 .navbar {
     // height: 110px;
-    background-color: white;
+    background-color: #fff;
+    background-size: cover;
     .navbar-brand {
         // background-color: orange;
         img {
@@ -16,14 +16,14 @@ body {
     .navbar-nav {
         .nav-item {
             .nav-link {
-                color: rgb(87, 87, 87);
+                color: rgb(50, 50, 120);
                 font-weight: bold;
                 font-size: 16px;
                 margin-bottom: 15px;
                 padding: 0px;
         
                 &:hover {
-                    color: rgb(50, 50, 120);
+                    color: rgb(33, 33, 219);
                 }
             }
         }
@@ -67,7 +67,7 @@ body {
 // }
 
 .page-home {
-    margin-top: 130px;
+    margin-top: 135px;
     .confrence-carousel {
         // background-color: green;
         .carousel {
@@ -90,7 +90,7 @@ body {
             font-family: 'Poppins', sans-serif;
             h1 {
                 text-align: center;
-                color: rgb(50, 50, 120);
+                color: #fff;
                 font-weight: bold;
                 font-size: 50px;
             }
@@ -109,21 +109,22 @@ body {
             .isiConfrence {
                 p {
                     font-size: 18px;
-                    color: #333;
+                    color: #fff;
                 }
             }
         }
     
         .btnSelengkapnya {
             .btnLengkap {
-                background-color: rgb(50, 50, 120);
+                background-color: #fff;
                 padding: 10px 20px 10px 20px;
-                color: #fff;
+                color: rgb(50, 50, 120);
+                font-weight: 600;
     
                 &:hover {
                     background-color: transparent;
-                    border: 1px solid rgb(50, 50, 120);
-                    color: rgb(50, 50, 120);
+                    border: 1px solid #fff;
+                    color: #fff;
                 }
             }
         }
@@ -137,7 +138,7 @@ body {
             font-family: 'Poppins', sans-serif;
             h1 {
                 text-align: center;
-                color: rgb(50, 50, 120);
+                color: #fff;
                 font-weight: bold;
                 font-size: 50px;
             }
@@ -152,7 +153,7 @@ body {
     
             .program-thumbnail {
                 width: 100%;
-                height: 150px;
+                height: 550px;
                 border-radius: 8px;
                 overflow: hidden;
                 position: relative;
@@ -179,14 +180,14 @@ body {
             .program-text {
                 font-weight: normal;
                 font-size: 18px;
-                color: rgb(50, 50, 120);
+                color: #fff;
                 margin-top: 12px;
             }
     
             .program-time {
                 font-weight: 500;
                 font-size: 16px;
-                color: rgb(50, 50, 120);
+                color: #fff;
             }
         }
     }
@@ -199,7 +200,7 @@ body {
             font-family: 'Poppins', sans-serif;
             h1 {
                 text-align: center;
-                color: rgb(50, 50, 120);
+                color: #fff;
                 font-weight: bold;
                 font-size: 50px;
             }
@@ -261,7 +262,7 @@ body {
             font-family: 'Poppins', sans-serif;
             h1 {
                 text-align: center;
-                color: rgb(50, 50, 120);
+                color: #fff;
                 font-weight: bold;
                 font-size: 50px;
             }
@@ -275,7 +276,7 @@ body {
                 margin-right: auto;
 
                 i {
-                    background-color: rgb(50, 50, 120);
+                    background-color: rgb(19, 19, 194);
                     padding: 30px;
                     border-radius: 40px 0px 40px 0px;
                     color: #fff;
@@ -290,6 +291,7 @@ body {
                     margin-top: 10px;
                     font-weight: 500;
                     font-size: 16px;
+                    color: #fff;
                 }
             }
         }
@@ -301,8 +303,8 @@ body {
         .breadcrumb {
             background: transparent;
             padding: 0;
-            padding-top: 10px;
-            padding-bottom: 10px;
+            padding-top: 15px;
+            padding-bottom: 15px;
         }
     
         .breadcrumb-item + .breadcrumb-item::before {
@@ -312,12 +314,12 @@ body {
     
         .breadcrumb-item.active {
             font-weight: 300;
-            color: rgb(50, 50, 120);
+            color: #fff;
             
         }
     
         a {
-            color: rgb(50, 50, 120);
+            color: #fff;
             text-decoration: none;
         }
     }
@@ -326,7 +328,7 @@ body {
         h1 {
             font-weight: 500;
             font-size: 30px;
-            color: rgb(50, 50, 120);
+            color: #fff;
         }
     }
 
@@ -339,7 +341,7 @@ body {
 
         p {
             margin-top: 30px;
-            color: #333;
+            color: #fff;
         }
     }
 }
@@ -349,8 +351,8 @@ body {
         .breadcrumb {
             background: transparent;
             padding: 0;
-            padding-top: 10px;
-            padding-bottom: 10px;
+            padding-top: 15px;
+            padding-bottom: 15px;
         }
     
         .breadcrumb-item + .breadcrumb-item::before {
@@ -360,12 +362,12 @@ body {
     
         .breadcrumb-item.active {
             font-weight: 300;
-            color: rgb(50, 50, 120);
+            color: #fff;
             
         }
     
         a {
-            color: rgb(50, 50, 120);
+            color: #fff;
             text-decoration: none;
         }
     }
@@ -374,7 +376,7 @@ body {
         h1 {
             font-weight: 500;
             font-size: 30px;
-            color: rgb(50, 50, 120);
+            color: #fff;
         }
     }
 
@@ -386,12 +388,16 @@ body {
         }
 
         i {
-            color: rgb(50, 50, 120);
+            color: #fff;
+        }
+
+        .text {
+            color: #fff;
         }
 
         p {
             margin-top: 10px;
-            color: #333;
+            color: #fff;
         }
     }
 }
@@ -402,8 +408,8 @@ body {
         .breadcrumb {
             background: transparent;
             padding: 0;
-            padding-top: 10px;
-            padding-bottom: 10px;
+            padding-top: 15px;
+            padding-bottom: 15px;
         }
     
         .breadcrumb-item + .breadcrumb-item::before {
@@ -413,13 +419,19 @@ body {
     
         .breadcrumb-item.active {
             font-weight: 300;
-            color: rgb(50, 50, 120);
+            color: #fff;
             
         }
     
         a {
-            color: rgb(50, 50, 120);
+            color: #fff;
             text-decoration: none;
+        }
+    }
+
+    .acaraTitle {
+        h1 {
+            color: #fff;
         }
     }
 
@@ -431,7 +443,7 @@ body {
             font-family: 'Poppins', sans-serif;
             h1 {
                 text-align: center;
-                color: rgb(50, 50, 120);
+                color: #fff;
                 font-weight: bold;
                 font-size: 50px;
             }
@@ -474,6 +486,9 @@ body {
 }
 
 @media (min-width: 992px) {
+    .page-home {
+        margin-top: 125px;
+    }
     .navbar-brand {
         height: 110px;
     }
