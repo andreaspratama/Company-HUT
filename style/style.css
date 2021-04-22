@@ -1,0 +1,429 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar .navbar-brand img {
+  width: 130px;
+  height: 110px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #575757;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 15px;
+  padding: 0px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #323278;
+}
+
+.page-home {
+  margin-top: 130px;
+}
+
+.page-home .confrence-carousel .carousel .carousel-inner .carousel-item img {
+  border-radius: 30px;
+  height: 450px;
+}
+
+.page-home .confrence {
+  margin-top: 100px;
+}
+
+.page-home .confrence .headConfrence {
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.page-home .confrence .headConfrence h1 {
+  text-align: center;
+  color: #323278;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.page-home .confrence .gambarConfrence img {
+  border-radius: 0px 70px 0px 70px;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 30px;
+}
+
+.page-home .confrence .content .isiConfrence p {
+  font-size: 18px;
+  color: #333;
+}
+
+.page-home .confrence .btnSelengkapnya .btnLengkap {
+  background-color: #323278;
+  padding: 10px 20px 10px 20px;
+  color: #fff;
+}
+
+.page-home .confrence .btnSelengkapnya .btnLengkap:hover {
+  background-color: transparent;
+  border: 1px solid #323278;
+  color: #323278;
+}
+
+.page-home .detailConfrence {
+  margin-top: 80px;
+}
+
+.page-home .detailConfrence .headDetailsConfrence {
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.page-home .detailConfrence .headDetailsConfrence h1 {
+  text-align: center;
+  color: #323278;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.page-home .detailConfrence .component-program {
+  margin-bottom: 20px;
+}
+
+.page-home .detailConfrence .component-program:hover {
+  text-decoration: none;
+}
+
+.page-home .detailConfrence .component-program .program-thumbnail {
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.page-home .detailConfrence .component-program .program-thumbnail:hover .program-image, .page-home .detailConfrence .component-program .program-thumbnail:focus .program-image {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.page-home .detailConfrence .component-program .program-thumbnail .program-image {
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.page-home .detailConfrence .component-program .program-text {
+  font-weight: normal;
+  font-size: 18px;
+  color: #323278;
+  margin-top: 12px;
+}
+
+.page-home .detailConfrence .component-program .program-time {
+  font-weight: 500;
+  font-size: 16px;
+  color: #323278;
+}
+
+.page-home .photosConfrence {
+  margin-top: 80px;
+}
+
+.page-home .photosConfrence .headPhotosConfrence {
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.page-home .photosConfrence .headPhotosConfrence h1 {
+  text-align: center;
+  color: #323278;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.page-home .photosConfrence .component-foto {
+  margin-bottom: 20px;
+}
+
+.page-home .photosConfrence .component-foto:hover {
+  text-decoration: none;
+}
+
+.page-home .photosConfrence .component-foto .foto-thumbnail {
+  width: 100%;
+  height: 400px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.page-home .photosConfrence .component-foto .foto-thumbnail:hover .foto-image, .page-home .photosConfrence .component-foto .foto-thumbnail:focus .foto-image {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.page-home .photosConfrence .component-foto .foto-thumbnail .foto-image {
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.page-home .photosConfrence .component-foto .foto-text {
+  font-weight: normal;
+  font-size: 18px;
+  color: #323278;
+  margin-top: 12px;
+}
+
+.page-home .photosConfrence .component-foto .foto-time {
+  font-weight: 500;
+  font-size: 16px;
+  color: #323278;
+}
+
+.page-home .hubungiKita {
+  margin-top: 80px;
+}
+
+.page-home .hubungiKita .headHubungiConfrence {
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.page-home .hubungiKita .headHubungiConfrence h1 {
+  text-align: center;
+  color: #323278;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.page-home .hubungiKita .icon {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.page-home .hubungiKita .icon .contentIcon {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-home .hubungiKita .icon .contentIcon i {
+  background-color: #323278;
+  padding: 30px;
+  border-radius: 40px 0px 40px 0px;
+  color: #fff;
+}
+
+.page-home .hubungiKita .icon .contentIcon i:hover {
+  background-color: #1313c2;
+  color: #fff;
+}
+
+.page-home .hubungiKita .icon .contentIcon p {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.page-fullAcara .acara-breadcrumbs .breadcrumb {
+  background: transparent;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page-fullAcara .acara-breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.page-fullAcara .acara-breadcrumbs .breadcrumb-item.active {
+  font-weight: 300;
+  color: #323278;
+}
+
+.page-fullAcara .acara-breadcrumbs a {
+  color: #323278;
+  text-decoration: none;
+}
+
+.page-fullAcara .acaraTitle h1 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #323278;
+}
+
+.page-fullAcara .acaraContent {
+  margin-top: 15px;
+}
+
+.page-fullAcara .acaraContent img {
+  width: 100%;
+  height: 250px;
+}
+
+.page-fullAcara .acaraContent p {
+  margin-top: 30px;
+  color: #333;
+}
+
+.page-detail .acara-breadcrumbs .breadcrumb {
+  background: transparent;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page-detail .acara-breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.page-detail .acara-breadcrumbs .breadcrumb-item.active {
+  font-weight: 300;
+  color: #323278;
+}
+
+.page-detail .acara-breadcrumbs a {
+  color: #323278;
+  text-decoration: none;
+}
+
+.page-detail .acaraTitle h1 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #323278;
+}
+
+.page-detail .acaraContent {
+  margin-top: 15px;
+}
+
+.page-detail .acaraContent img {
+  width: 100%;
+  height: 250px;
+}
+
+.page-detail .acaraContent i {
+  color: #323278;
+}
+
+.page-detail .acaraContent p {
+  margin-top: 10px;
+  color: #333;
+}
+
+.page-galeri .acara-breadcrumbs .breadcrumb {
+  background: transparent;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page-galeri .acara-breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.page-galeri .acara-breadcrumbs .breadcrumb-item.active {
+  font-weight: 300;
+  color: #323278;
+}
+
+.page-galeri .acara-breadcrumbs a {
+  color: #323278;
+  text-decoration: none;
+}
+
+.page-galeri .isiGaleri {
+  margin-top: 20px;
+}
+
+.page-galeri .isiGaleri .headDetailsConfrence {
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.page-galeri .isiGaleri .headDetailsConfrence h1 {
+  text-align: center;
+  color: #323278;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.page-galeri .isiGaleri .component-program {
+  margin-bottom: 20px;
+}
+
+.page-galeri .isiGaleri .component-program:hover {
+  text-decoration: none;
+}
+
+.page-galeri .isiGaleri .component-program .program-thumbnail {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.page-galeri .isiGaleri .component-program .program-thumbnail:hover .program-image, .page-galeri .isiGaleri .component-program .program-thumbnail:focus .program-image {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.page-galeri .isiGaleri .component-program .program-thumbnail .program-image {
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    height: 110px;
+  }
+  .nav-link {
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-right: 30px;
+  }
+  .nav-link:hover {
+    color: #323278;
+  }
+  .page-fullAcara .acaraTitle h1 {
+    font-size: 40px;
+  }
+  .page-fullAcara .acaraContent img {
+    width: 100%;
+    height: 450px;
+  }
+  .page-detail .acaraTitle h1 {
+    font-size: 40px;
+  }
+  .page-detail .acaraContent img {
+    width: 100%;
+    height: 450px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,517 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    // background-color: blue;
+}
+
+.navbar {
+    // height: 110px;
+    background-color: white;
+    .navbar-brand {
+        // background-color: orange;
+        img {
+            width: 130px;
+            height: 110px;
+        }
+    }
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: rgb(87, 87, 87);
+                font-weight: bold;
+                font-size: 16px;
+                margin-bottom: 15px;
+                padding: 0px;
+        
+                &:hover {
+                    color: rgb(50, 50, 120);
+                }
+            }
+        }
+    }
+}
+
+// .navbar {
+//     // margin-bottom: 100px;
+//     background-color: #fff;
+//     height: 100px;
+
+//     .navbar-brand {
+//         // background-color: black;
+//         height: 120px;
+//         margin-top: 0;
+//         img {
+//             // background-color: red;
+//             padding-top: 0;
+//             width: 130px;
+//             height: 100%;
+//         }
+//     }
+
+//     .navbar-nav {
+//         .nav-item {
+//             .nav-link {
+//                 background-color: #fff;
+//                 color: rgb(87, 87, 87);
+//                 font-weight: bold;
+//                 font-size: 16px;
+//                 padding-right: 30px;
+//                 // margin-top: 20px;
+//                 padding: 0px;
+
+//                 &:hover {
+//                     color: rgb(50, 50, 120);
+//                 }
+//             }
+//         }
+//     }
+// }
+
+.page-home {
+    margin-top: 130px;
+    .confrence-carousel {
+        // background-color: green;
+        .carousel {
+            .carousel-inner {
+                .carousel-item {
+                    img {
+                        // margin-top: 40px;
+                        border-radius: 30px;
+                        height: 450px;
+                    }
+                }
+            }
+        }
+    }
+
+    .confrence {
+        margin-top: 100px;    
+        .headConfrence {
+            margin-bottom: 30px;
+            font-family: 'Poppins', sans-serif;
+            h1 {
+                text-align: center;
+                color: rgb(50, 50, 120);
+                font-weight: bold;
+                font-size: 50px;
+            }
+        }
+    
+        .gambarConfrence {
+            img {
+                border-radius: 0px 70px 0px 70px;
+                width: 100%;
+                height: 500px;
+                margin-bottom: 30px;
+            }
+        }
+    
+        .content {
+            .isiConfrence {
+                p {
+                    font-size: 18px;
+                    color: #333;
+                }
+            }
+        }
+    
+        .btnSelengkapnya {
+            .btnLengkap {
+                background-color: rgb(50, 50, 120);
+                padding: 10px 20px 10px 20px;
+                color: #fff;
+    
+                &:hover {
+                    background-color: transparent;
+                    border: 1px solid rgb(50, 50, 120);
+                    color: rgb(50, 50, 120);
+                }
+            }
+        }
+    }
+    
+    .detailConfrence {
+        margin-top: 80px;
+    
+        .headDetailsConfrence {
+            margin-bottom: 30px;
+            font-family: 'Poppins', sans-serif;
+            h1 {
+                text-align: center;
+                color: rgb(50, 50, 120);
+                font-weight: bold;
+                font-size: 50px;
+            }
+        }
+    
+        .component-program {
+            margin-bottom: 20px;
+    
+            &:hover {
+                text-decoration: none;
+            }
+    
+            .program-thumbnail {
+                width: 100%;
+                height: 150px;
+                border-radius: 8px;
+                overflow: hidden;
+                position: relative;
+                z-index: 1;
+    
+                &:hover,
+                &:focus {
+                    .program-image {
+                        transform: scale(1.1);
+                    }
+                }
+    
+                .program-image {
+                    width: 100%;
+                    height: 100%;
+                    background-color: #ddd;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    transition: all 0.3s ease;
+                }
+            }
+    
+            .program-text {
+                font-weight: normal;
+                font-size: 18px;
+                color: rgb(50, 50, 120);
+                margin-top: 12px;
+            }
+    
+            .program-time {
+                font-weight: 500;
+                font-size: 16px;
+                color: rgb(50, 50, 120);
+            }
+        }
+    }
+    
+    .photosConfrence {
+        margin-top: 80px;
+    
+        .headPhotosConfrence {
+            margin-bottom: 30px;
+            font-family: 'Poppins', sans-serif;
+            h1 {
+                text-align: center;
+                color: rgb(50, 50, 120);
+                font-weight: bold;
+                font-size: 50px;
+            }
+        }
+    
+        .component-foto {
+            margin-bottom: 20px;
+    
+            &:hover {
+                text-decoration: none;
+            }
+    
+            .foto-thumbnail {
+                width: 100%;
+                height: 400px;
+                border-radius: 8px;
+                overflow: hidden;
+                position: relative;
+                z-index: 1;
+    
+                &:hover,
+                &:focus {
+                    .foto-image {
+                        transform: scale(1.1);
+                    }
+                }
+    
+                .foto-image {
+                    width: 100%;
+                    height: 100%;
+                    background-color: #ddd;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    transition: all 0.3s ease;
+                }
+            }
+    
+            .foto-text {
+                font-weight: normal;
+                font-size: 18px;
+                color: rgb(50, 50, 120);
+                margin-top: 12px;
+            }
+    
+            .foto-time {
+                font-weight: 500;
+                font-size: 16px;
+                color: rgb(50, 50, 120);
+            }
+        }
+    }
+    
+    .hubungiKita {
+        margin-top: 80px;
+    
+        .headHubungiConfrence {
+            margin-bottom: 30px;
+            font-family: 'Poppins', sans-serif;
+            h1 {
+                text-align: center;
+                color: rgb(50, 50, 120);
+                font-weight: bold;
+                font-size: 50px;
+            }
+        }
+
+        .icon {
+            margin-top: 30px;
+            margin-bottom: 10px;
+            .contentIcon {
+                margin-left: auto;
+                margin-right: auto;
+
+                i {
+                    background-color: rgb(50, 50, 120);
+                    padding: 30px;
+                    border-radius: 40px 0px 40px 0px;
+                    color: #fff;
+                    
+                    &:hover {
+                        background-color: rgb(19, 19, 194); 
+                        color: #fff;
+                    }
+                }
+                
+                p {
+                    margin-top: 10px;
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.page-fullAcara {
+    .acara-breadcrumbs {
+        .breadcrumb {
+            background: transparent;
+            padding: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    
+        .breadcrumb-item + .breadcrumb-item::before {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+    
+        .breadcrumb-item.active {
+            font-weight: 300;
+            color: rgb(50, 50, 120);
+            
+        }
+    
+        a {
+            color: rgb(50, 50, 120);
+            text-decoration: none;
+        }
+    }
+
+    .acaraTitle {
+        h1 {
+            font-weight: 500;
+            font-size: 30px;
+            color: rgb(50, 50, 120);
+        }
+    }
+
+    .acaraContent {
+        margin-top: 15px;
+        img {
+            width: 100%;
+            height: 250px;
+        }
+
+        p {
+            margin-top: 30px;
+            color: #333;
+        }
+    }
+}
+
+.page-detail {
+    .acara-breadcrumbs {
+        .breadcrumb {
+            background: transparent;
+            padding: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    
+        .breadcrumb-item + .breadcrumb-item::before {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+    
+        .breadcrumb-item.active {
+            font-weight: 300;
+            color: rgb(50, 50, 120);
+            
+        }
+    
+        a {
+            color: rgb(50, 50, 120);
+            text-decoration: none;
+        }
+    }
+
+    .acaraTitle {
+        h1 {
+            font-weight: 500;
+            font-size: 30px;
+            color: rgb(50, 50, 120);
+        }
+    }
+
+    .acaraContent {
+        margin-top: 15px;
+        img {
+            width: 100%;
+            height: 250px;
+        }
+
+        i {
+            color: rgb(50, 50, 120);
+        }
+
+        p {
+            margin-top: 10px;
+            color: #333;
+        }
+    }
+}
+
+.page-galeri {
+    // margin-top: 130px; 
+    .acara-breadcrumbs {
+        .breadcrumb {
+            background: transparent;
+            padding: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    
+        .breadcrumb-item + .breadcrumb-item::before {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+    
+        .breadcrumb-item.active {
+            font-weight: 300;
+            color: rgb(50, 50, 120);
+            
+        }
+    
+        a {
+            color: rgb(50, 50, 120);
+            text-decoration: none;
+        }
+    }
+
+    .isiGaleri {
+        margin-top: 20px;
+    
+        .headDetailsConfrence {
+            margin-bottom: 30px;
+            font-family: 'Poppins', sans-serif;
+            h1 {
+                text-align: center;
+                color: rgb(50, 50, 120);
+                font-weight: bold;
+                font-size: 50px;
+            }
+        }
+    
+        .component-program {
+            margin-bottom: 20px;
+    
+            &:hover {
+                text-decoration: none;
+            }
+    
+            .program-thumbnail {
+                width: 100%;
+                height: 200px;
+                border-radius: 8px;
+                overflow: hidden;
+                position: relative;
+                z-index: 1;
+    
+                &:hover,
+                &:focus {
+                    .program-image {
+                        transform: scale(1.1);
+                    }
+                }
+    
+                .program-image {
+                    width: 100%;
+                    height: 100%;
+                    background-color: #ddd;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    transition: all 0.3s ease;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        height: 110px;
+    }
+    .nav-link {
+        margin-left: 30px;
+        margin-top: 20px;
+        padding-right: 30px;
+        // margin-top: 20px;
+
+        &:hover {
+            color: rgb(50, 50, 120);
+        }
+    }
+    .page-fullAcara {
+        .acaraTitle {
+            h1 {
+                font-size: 40px;
+            }
+        }
+        .acaraContent {
+            img {
+                width: 100%;
+                height: 450px;
+            }
+        }
+    }
+
+    .page-detail {
+        .acaraTitle {
+            h1 {
+                font-size: 40px;
+            }
+        }
+        .acaraContent {
+            img {
+                width: 100%;
+                height: 450px;
+            }
+        }
+    }
+}
