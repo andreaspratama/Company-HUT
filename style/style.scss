@@ -4,7 +4,8 @@ body {
 
 .navbar {
     // height: 110px;
-    background-color: #fff;
+    // background-color: #323278;
+    // background-image: url('images/HUT\ 70\ -\ Header.jpg');
     background-size: cover;
     .navbar-brand {
         // background-color: orange;
@@ -13,18 +14,15 @@ body {
             height: 110px;
         }
     }
+    
     .navbar-nav {
         .nav-item {
             .nav-link {
-                color: rgb(50, 50, 120);
+                color: #fff;
                 font-weight: bold;
                 font-size: 16px;
                 margin-bottom: 15px;
                 padding: 0px;
-        
-                &:hover {
-                    color: rgb(33, 33, 219);
-                }
             }
         }
     }
@@ -67,7 +65,7 @@ body {
 // }
 
 .page-home {
-    margin-top: 135px;
+    margin-top: 150px;
     .confrence-carousel {
         // background-color: green;
         .carousel {
@@ -97,11 +95,12 @@ body {
         }
     
         .gambarConfrence {
+            // background-color: green;
             img {
                 border-radius: 0px 70px 0px 70px;
                 width: 100%;
                 height: 500px;
-                margin-bottom: 30px;
+                // margin-bottom: 10px;
             }
         }
     
@@ -179,6 +178,7 @@ body {
     
             .program-text {
                 font-weight: normal;
+                text-align: center;
                 font-size: 18px;
                 color: #fff;
                 margin-top: 12px;
@@ -186,6 +186,7 @@ body {
     
             .program-time {
                 font-weight: 500;
+                text-align: center;
                 font-size: 16px;
                 color: #fff;
                 margin-bottom: 15px;
@@ -207,82 +208,73 @@ body {
             }
         }
     
-        .carousel {
-            .carousel-indicators {
-                top: 100%;
-            }
-            .carousel-inner {
-                .carousel-item {
-                    .itemPertama {
-                        a {
-                            text-decoration: none;
-                            .card {
-                                border: none;
-                                width: 100%;
-                                height: 450px;
-    
-                                img {
-                                    width: 100%;
-                                    height: 370px;
-                                }
-                                .card-text {
-                                    text-align: center;
-                                    color: rgb(15, 15, 141);
-                                    font-size: 20px;
-                                    font-weight: 600;
-                                    text-transform: none;
-                                }
-                            }
-                        }
-                        // .component-foto {
-    
-                        //     &:hover {
-                        //         text-decoration: none;
-                        //     }
-                    
-                        //     .foto-thumbnail {
-                        //         margin-bottom: 20px;
-                        //         width: 100%;
-                        //         height: 400px;
-                        //         border-radius: 8px;
-                        //         overflow: hidden;
-                        //         position: relative;
-                        //         z-index: 1;
-                    
-                        //         &:hover,
-                        //         &:focus {
-                        //             .foto-image {
-                        //                 transform: scale(1.1);
-                        //             }
-                        //         }
-                    
-                        //         .foto-image {
-                        //             width: 100%;
-                        //             height: 100%;
-                        //             background-color: #ddd;
-                        //             background-position: center;
-                        //             background-size: cover;
-                        //             background-repeat: no-repeat;
-                        //             transition: all 0.3s ease;
-                        //         }
-                        //     }
-                    
-                        //     .foto-text {
-                        //         font-weight: normal;
-                        //         font-size: 18px;
-                        //         color: rgb(50, 50, 120);
-                        //         margin-top: 12px;
-                        //     }
-                    
-                        //     .foto-time {
-                        //         font-weight: 500;
-                        //         font-size: 16px;
-                        //         color: rgb(50, 50, 120);
-                        //     }
-                        // }
+        .itemPertama {
+            a {
+                text-decoration: none;
+                .card {
+                    border: none;
+                    width: 100%;
+                    height: 380px;
+
+                    img {
+                        width: 100%;
+                        height: 300px;
+                    }
+                    .card-text {
+                        text-align: center;
+                        color: rgb(15, 15, 141);
+                        font-size: 20px;
+                        font-weight: 600;
+                        text-transform: none;
                     }
                 }
             }
+            // .component-foto {
+
+            //     &:hover {
+            //         text-decoration: none;
+            //     }
+        
+            //     .foto-thumbnail {
+            //         margin-bottom: 20px;
+            //         width: 100%;
+            //         height: 400px;
+            //         border-radius: 8px;
+            //         overflow: hidden;
+            //         position: relative;
+            //         z-index: 1;
+        
+            //         &:hover,
+            //         &:focus {
+            //             .foto-image {
+            //                 transform: scale(1.1);
+            //             }
+            //         }
+        
+            //         .foto-image {
+            //             width: 100%;
+            //             height: 100%;
+            //             background-color: #ddd;
+            //             background-position: center;
+            //             background-size: cover;
+            //             background-repeat: no-repeat;
+            //             transition: all 0.3s ease;
+            //         }
+            //     }
+        
+            //     .foto-text {
+            //         font-weight: normal;
+            //         font-size: 18px;
+            //         color: rgb(50, 50, 120);
+            //         margin-top: 12px;
+            //     }
+        
+            //     .foto-time {
+            //         font-weight: 500;
+            //         font-size: 16px;
+            //         color: rgb(50, 50, 120);
+            //     }
+            // }
         }
     }
     
@@ -308,14 +300,14 @@ body {
                 margin-right: auto;
 
                 i {
-                    background-color: rgb(19, 19, 194);
+                    background-color: rgb(34, 34, 34);
                     padding: 30px;
                     border-radius: 40px 0px 40px 0px;
                     color: #fff;
                     
                     &:hover {
-                        background-color: rgb(19, 19, 194); 
-                        color: #fff;
+                        background-color: #fff; 
+                        color: rgb(34, 34, 34);
                     }
                 }
                 
@@ -519,7 +511,7 @@ body {
 
 @media (min-width: 992px) {
     .page-home {
-        margin-top: 125px;
+        margin-top: 170px;
     }
     .navbar-brand {
         height: 110px;
@@ -542,7 +534,10 @@ body {
         }
         .acaraContent {
             img {
-                width: 100%;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
                 height: 450px;
             }
         }
@@ -556,7 +551,10 @@ body {
         }
         .acaraContent {
             img {
-                width: 100%;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
                 height: 450px;
             }
         }

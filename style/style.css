@@ -3,7 +3,6 @@ body {
 }
 
 .navbar {
-  background-color: #fff;
   background-size: cover;
 }
 
@@ -13,19 +12,15 @@ body {
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
-  color: #323278;
+  color: #fff;
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 15px;
   padding: 0px;
 }
 
-.navbar .navbar-nav .nav-item .nav-link:hover {
-  color: #2121db;
-}
-
 .page-home {
-  margin-top: 135px;
+  margin-top: 150px;
 }
 
 .page-home .confrence-carousel .carousel .carousel-inner .carousel-item img {
@@ -53,7 +48,6 @@ body {
   border-radius: 0px 70px 0px 70px;
   width: 100%;
   height: 500px;
-  margin-bottom: 30px;
 }
 
 .page-home .confrence .content .isiConfrence p {
@@ -125,6 +119,7 @@ body {
 
 .page-home .detailConfrence .component-program .program-text {
   font-weight: normal;
+  text-align: center;
   font-size: 18px;
   color: #fff;
   margin-top: 12px;
@@ -132,6 +127,7 @@ body {
 
 .page-home .detailConfrence .component-program .program-time {
   font-weight: 500;
+  text-align: center;
   font-size: 16px;
   color: #fff;
   margin-bottom: 15px;
@@ -153,26 +149,22 @@ body {
   font-size: 50px;
 }
 
-.page-home .photosConfrence .carousel .carousel-indicators {
-  top: 100%;
-}
-
-.page-home .photosConfrence .carousel .carousel-inner .carousel-item .itemPertama a {
+.page-home .photosConfrence .itemPertama a {
   text-decoration: none;
 }
 
-.page-home .photosConfrence .carousel .carousel-inner .carousel-item .itemPertama a .card {
+.page-home .photosConfrence .itemPertama a .card {
   border: none;
   width: 100%;
-  height: 450px;
+  height: 380px;
 }
 
-.page-home .photosConfrence .carousel .carousel-inner .carousel-item .itemPertama a .card img {
+.page-home .photosConfrence .itemPertama a .card img {
   width: 100%;
-  height: 370px;
+  height: 300px;
 }
 
-.page-home .photosConfrence .carousel .carousel-inner .carousel-item .itemPertama a .card .card-text {
+.page-home .photosConfrence .itemPertama a .card .card-text {
   text-align: center;
   color: #0f0f8d;
   font-size: 20px;
@@ -207,15 +199,15 @@ body {
 }
 
 .page-home .hubungiKita .icon .contentIcon i {
-  background-color: #1313c2;
+  background-color: #222222;
   padding: 30px;
   border-radius: 40px 0px 40px 0px;
   color: #fff;
 }
 
 .page-home .hubungiKita .icon .contentIcon i:hover {
-  background-color: #1313c2;
-  color: #fff;
+  background-color: #fff;
+  color: #222222;
 }
 
 .page-home .hubungiKita .icon .contentIcon p {
@@ -394,7 +386,7 @@ body {
 
 @media (min-width: 992px) {
   .page-home {
-    margin-top: 125px;
+    margin-top: 170px;
   }
   .navbar-brand {
     height: 110px;
@@ -411,14 +403,20 @@ body {
     font-size: 40px;
   }
   .page-fullAcara .acaraContent img {
-    width: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     height: 450px;
   }
   .page-detail .acaraTitle h1 {
     font-size: 40px;
   }
   .page-detail .acaraContent img {
-    width: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     height: 450px;
   }
 }
